@@ -3,7 +3,7 @@
 **Projeto:** app_jogos (`game_backlog`) – aplicativo Flutter para organizar o backlog de jogos
 **Repositório:** https://github.com/fernandohoffmann/app_jogos
 **Responsável (autor/mantenedor):** Fernando Hoffmann da Silva (@fernandohoffmann)
-**Par de revisão:** @REVISOR_GITHUB
+**Par de revisão:** @MateusMaciel999
 **Disciplina:** Engenharia de Software 4B – N2-P2
 **Versão do plano:** 1.0 – 16/11/2026
 
@@ -70,7 +70,7 @@ app_jogos/
 | Papel | Pessoa | Permissão |
 |-------|--------|-----------|
 | Autor / mantenedor | @fernandohoffmann | Admin |
-| Par de revisão | @REVISOR_GITHUB | Write |
+| Par de revisão | @MateusMaciel999 | Write |
 
 ## 9. Ambientes e liberação
 | Environment | Finalidade | Proteção |
