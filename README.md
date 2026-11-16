@@ -1,16 +1,20 @@
-# diceb
+# app_jogos (game_backlog)
 
-A new Flutter project.
+Aplicativo Flutter para organizar o backlog de jogos (Quero jogar / Jogando / Zerado), com persistência local via `shared_preferences`.
 
-## Getting Started
+## Estrutura
+- `lib/` – código-fonte (`models/`, `screens/`)
+- `docs/plano-gcs.md` – **Plano de Gerência de Configuração de Software**
+- `.github/` – CI/CD, CODEOWNERS e template de PR
 
-This project is a starting point for a Flutter application.
+## Como rodar
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Fluxo de contribuição
+A `main` é protegida: crie um branch (`feature/...`), abra um Pull Request e aguarde a revisão do par. Detalhes no [plano de GCS](docs/plano-gcs.md).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Ambientes
+`staging` e `production` (este com revisor obrigatório) – veja a seção 9 do plano de GCS.
