@@ -62,7 +62,7 @@ app_jogos/
 ## 7. Proteção da `main` (regras configuradas no GitHub)
 - Push direto bloqueado: alteração somente via Pull Request.
 - Mínimo de 1 aprovação; aprovações obsoletas descartadas a cada novo commit.
-- Revisão de Code Owners exigida.
+
 - Conversas resolvidas antes do merge.
 - Force-push e exclusão da branch proibidos; regra vale também para administradores.
 
